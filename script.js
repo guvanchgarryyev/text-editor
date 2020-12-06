@@ -17,7 +17,7 @@ function updateText(){
  * Toggle .active class for the button
  */
 function makeBold(elem){
-  //CODE GOES HERE
+  
   elem.classList.toggle('active');
   document.getElementById('text-output').classList.toggle('bold');
 }
@@ -37,7 +37,7 @@ function makeItalic(elem){
  * Use contains, remove, and add functions
  */
 function makeUnderline(elem){
-    //CODE GOES HERE
+    
     elem.classList.toggle('active');
     let formatText = document.getElementById('text-output');
     if(formatText.classList.contains('underline'))
